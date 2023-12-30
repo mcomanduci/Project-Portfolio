@@ -1,0 +1,71 @@
+* {
+    text-align: center;
+    font-family: Arial, sans-serif;
+   
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: #6096B4;
+    padding: 20px;
+    margin: -10px;
+    display: block;
+}
+
+main {
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+    display: block;
+    background-color: #6096B4;
+}
+
+img {
+    border: 2px black solid;
+}
+
+nav {
+    display: block
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.projetos {
+    display: inline-block;
+    margin: 20px;
+}
+
+.cleanLists {
+    list-style: none;
+    padding: 10px;
+}
+
+.foto {
+    width: 50%;
+    object-fit: scale-down;
+}
+
+.poster {
+    margin-left: 25%;
+    width: 50%;
+}
+
+#me {
+    float: left;
+}
