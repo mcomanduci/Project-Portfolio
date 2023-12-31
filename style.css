@@ -48,7 +48,8 @@ nav li {
 
 .projbox {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
     justify-content: center;
     gap: 3rem;
 }
