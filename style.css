@@ -46,9 +46,11 @@ nav li {
     margin-right: 10px;
 }
 
-.projetos {
-    display: inline-block;
-    margin: 20px;
+.projbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
 }
 
 .cleanLists {
