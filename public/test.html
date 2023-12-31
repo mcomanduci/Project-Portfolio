@@ -2,8 +2,7 @@
 <html>
 
 <head>
-  <title>Pricing Table</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flexbox Pricing Table</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap" rel="stylesheet">
@@ -57,13 +56,58 @@
       font-size: 1.2rem;
     }
     
-
-
-    /* Hint: What can you do with a media query and flexbox? */
     @media (max-width: 1250px) {
       .pricing-container {
         flex-direction: column;
         height: 100%;
+      }
+    }
+
+
+    /* Hint: What can you do with a media query and flexbox? */
+    @media (max-width: 450px) {
+      .pricing-container {
+        flex-direction: column;
+        height: 100%;
+      }
+      .pricing-plan {
+      flex-grow: 0;
+      background-color: rgb(238, 238, 238);
+      border-radius: 20px;
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0 0 10px 1px black;   
+      max-width: 240px;
+      }
+      .plan-title{
+      font-weight: bold;
+      font-size: 1rem;
+      padding: 10px 10px;
+      margin: 0;
+    }
+    .plan-price {
+      font-size: 2rem;
+      font-weight: bold;
+      padding: 10px 0 0 0;
+    }
+    .plan-features {
+      display: block;
+      padding: 0;
+      list-style-type: none;
+      font-size: 1rem;
+    }
+
+    .plan-features li {      
+      padding: 20px;
+    }
+    .plan-button {
+      background-color: orangered;
+      color: white;
+      padding: 8px;
+      margin-bottom: 1rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
     }
   }
   </style>
